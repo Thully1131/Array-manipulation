@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 50%;
+    box-shadow: 0 0 20px;
+    border-radius: 20px;
+}
+#grace{
+    background-color: palevioletred;
+    padding: 30px;
+    border-radius: 20px 20px 0 0;
+}
+#student{
+    width: 60%;
+}
+.add-button,
+.save{
+    background-color: wheat;
+}
+#studentList{
+    padding: 30px;
+}
+p.stud{
+    background-color: peachpuff;
+    padding: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: palevioletred;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    /* font-weight: bold; */
+}
