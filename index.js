@@ -26,11 +26,11 @@ function removeStudent(idx) {
 
 function editStudent(idx) {
     studentName.value = arrStudents[idx]
+    selectedIndex = idx
     showList()
 }
  
  function saveStudent(idx) {
-    selectedIndex = idx
     arrStudents.splice(selectedIndex, 1, studentName.value );
     showList()
     console.log(arrStudents)
